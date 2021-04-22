@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import data from './data.js';
 
-class Button1 extends Component {
+class Button2 extends Component {
   constructor (props) {
     super (props)
 
@@ -13,9 +13,9 @@ class Button1 extends Component {
   
   render () {
     return (
-      <button className='previousButtonClick' onClick={() => this.props.change()}>Previous</button>
+      <button className='nextButtonClick' onClick={() => this.props.change()}>Next</button>
     )
   }
 }
 
-export default Button1;
+export default Button2;

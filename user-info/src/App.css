@@ -28,11 +28,114 @@
   display: flex;
   width: 80%;
   height: 400px;
-  background-color: white;
+  /* background-color: white; */
   margin: 0px;
 }
 
+.innerUserBox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  flex-direction: column;
+}
 
+.indexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  /* background-color: aqua; */
+  font-weight: bold;
+  font-size: 1.5em;
+  align-self: flex-end;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgb(58, 149, 202); */
+  width: 300px;;
+  height: 100px;
+  position: relative;
+  bottom: 108px;
+  left: 45px;
+}
+
+.nameBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2em;
+  width: 400px;
+  height: 150px;
+  /* background-color:grey; */
+  position: relative;
+  bottom: 75px;
+  right: 10px;
+}
+
+.locationBox {
+  width: 300px;
+  height: 25px;
+  /* background-color: rosybrown; */
+}
+
+.jobTitleBox {
+  width: 300px;
+  height: 25px;
+  /* background-color: royalblue; */
+}
+
+.employerBox {
+  /* background-color: salmon; */
+  width: 300px;
+  height: 25px;
+}
+
+.movieBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  /* background-color: salmon; */
+  position: relative;
+  bottom: 100px;
+  font-size: 2em;
+  right: 10px;
+  font-weight: bold;
+}
+
+.actualMovieBox {
+  width: 500px;
+  height: 20px;
+  /* background-color: salmon; */
+  position: relative;
+  bottom: 85px;
+  left: 40px;
+}
+
+.actualMovieBox1 {
+  width: 500px;
+  height: 20px;
+  /* background-color: salmon; */
+  position: relative;
+  bottom: 70px;
+  left: 40px;
+}
+
+.actualMovieBox2 {
+  width: 500px;
+  height: 20px;
+  /* background-color: salmon; */
+  position: relative;
+  bottom: 55px;
+  left: 40px;
+}
 
 .underUserBox {
   margin: 0px;
@@ -49,24 +152,89 @@
   align-items: center ;
   width: 15%;
   height: 45px;
-  background-color: tomato;
-  color: white;
+  /* background-color: tomato; */
+  /* color: white; */
   font-weight: bold;
 }
 
 .buttonsBox {
-  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
   height: 45px;
-  background-color: violet;
+  /* background-color: violet; */
 }
 
 .nextBox {
   width: 15%;
   height: 45px;
-  background-color: bisque;
+  /* background-color: bisque; */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  /* color: white; */
   font-weight: bold;
+}
+
+.nextButtonClick {
+  border: solid 1px ;
+  background-color: transparent;
+  font-size: 1.3em;
+  color: white;
+  width: 100px;
+  position: relative;
+  left: 35px;
+  position: relative;
+  top: 10px;
+}
+
+.previousButtonClick {
+  position: relative;
+  right: 35px;
+  width: 100px;
+  border: solid 1px ;
+  background-color: transparent;
+  font-size: 1.3em;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+.editBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  background-color:rgb(58, 149, 202);
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+.deleteBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  background-color:rgb(58, 149, 202);
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+.newBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  background-color:rgb(58, 149, 202);
+  color: white;
+  position: relative;
+  top: 10px;
 }
