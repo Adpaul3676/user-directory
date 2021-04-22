@@ -1,0 +1,72 @@
+.topBox {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  background-color:rgb(58, 149, 202);
+}
+
+.homeBox {
+  position: relative;
+  left: 40px;
+  font-size: large;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.bigBox {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 35, 35);
+}
+
+.userBox {
+  display: flex;
+  width: 80%;
+  height: 400px;
+  background-color: white;
+  margin: 0px;
+}
+
+
+
+.underUserBox {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  /* background-color: thistle; */
+  width: 80%;
+}
+
+.previousBox {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  width: 15%;
+  height: 45px;
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+}
+
+.buttonsBox {
+  width: 25%;
+  height: 45px;
+  background-color: violet;
+}
+
+.nextBox {
+  width: 15%;
+  height: 45px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
